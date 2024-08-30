@@ -1,14 +1,16 @@
+
 .button {
     background-color: var(--color-black);
     color: var(--color-primary);
-    border-radius: 12px;
-    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
     font-family: "Poppins", sans-serif;
-    padding: 10px 16px;
-    margin: 14px;
-    /* my extra from figma */
-    Width: 170px;
-    Height: 47px;
-    font-size:medium;
-
-}
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  

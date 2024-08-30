@@ -1,27 +1,33 @@
-.sectionTop{
+.section_heading {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
-.toggleText{
+  }
+  
+  .section_name {
+    color: var(--color-text);
+  }
+  
+  .toggletxt {
     color: var(--color-primary);
     cursor: pointer;
-}
-
-.sectionInnerWrapper{
-    margin-top: 18px;
-}
-
-.showAllWrapper{
-    gap: 40px; /*got it from figma*/
+  }
+  
+  .cards {
+    /* display: flex; */
+    margin: 18px 0 0 0;
+    /* gap:6px   */
+  }
+  
+  .cardGroup {
     display: flex;
-    flex-wrap: wrap;  /*"flex-wrap: wrap;" specifies that the flex items(cards here) will wrap(will get adjust to new line) if necessary, Try resizing the browser's window to visualize*/
-}
-
-.progressBar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .hr {
+    display: block;
+    border: 1px solid var(--color-primary);
+    margin: 15px -30px;
+  }
